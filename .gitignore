@@ -1,0 +1,27 @@
+### IDE
+.idea/
+
+### Python ###
+__pycache__/
+*.pyc
+
+### Envinroment
+.env
+
+### Poetry
+poetry.lock
+
+### Migrations
+src/alembic/versions/*.*
+!src/alembic/versions/.gitkeep
+
+### Folders
+logs/*.*
+!logs/.gitkeep
+data/*.*
+!data/.gitkeep
+
+tests/*.*
+!tests/.gitkeep
+
+/temp.html
